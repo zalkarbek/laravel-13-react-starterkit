@@ -22,4 +22,9 @@ export default defineConfig({
             formVariants: true,
         }),
     ],
+    resolve: {
+        alias: {
+            '@': '/resources/js',  // ← алиас для Inertia
+        },
+    },
 });
